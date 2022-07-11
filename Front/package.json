@@ -1,0 +1,71 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://pgn2gif.glitch.me/",
+  "dependencies": {
+    "@craco/craco": "^6.4.0",
+    "@gnosis.pm/safe-apps-provider": "^0.9.0",
+    "@gnosis.pm/safe-apps-sdk": "^6.0.0",
+    "@gnosis.pm/safe-apps-web3modal": "^5.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "axios": "^0.24.0",
+    "chess-clock": "^0.5.0",
+    "chess.js": "^0.12.0",
+    "ethers": "^5.5.1",
+    "ipfs-car": "^0.6.0",
+    "ipfs-http-client": "^54.0.2",
+    "moment": "^2.29.1",
+    "moralis": "0.0.140",
+    "nft.storage": "^4.0.0",
+    "react": "^17.0.2",
+    "react-blockies": "^1.4.1",
+    "react-chessground": "^1.5.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.20.2",
+    "react-moralis": "^0.3.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "streamr-client": "^5.5.0",
+    "text-on-gif": "^1.0.29",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.6.1",
+    "web3.storage": "^3.3.2",
+    "web3modal": "^1.9.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
